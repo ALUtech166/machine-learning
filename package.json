@@ -1,11 +1,11 @@
 {
-  "name": "tailwind_landing_nuxt",
+  "name": "machine_learning",
   "version": "1.0.0",
-  "description": "Tailwind Landing Page (Nuxt.js Version)",
+  "description": "Tailwind Landing Page",
   "author": {
-    "name": "Vanessa Böhner",
-    "email": "boehner.vanessa@gmail.com",
-    "url": "https://vannsl.io/"
+    "name": "Serge TASSIGA",
+    "email": "sergetassiga22@gmail.com"
+
   },
   "private": true,
   "scripts": {
