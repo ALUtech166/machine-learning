@@ -7,6 +7,10 @@ import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '..\\assets\\css\\tailwind.css'
 
+import '..\\node_modules\\vuetify\\dist\\vuetify.css'
+
+import '..\\node_modules\\vuetify\\dist\\vuetify.css'
+
 import _5fa3735e from '..\\layouts\\dashboard.vue'
 import _6f6c098b from '..\\layouts\\default.vue'
 

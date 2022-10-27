@@ -1,12 +1,16 @@
-/*
- ** TailwindCSS Configuration File
- **
- ** Docs: https://tailwindcss.com/docs/configuration
- ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
- */
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  theme: {},
-  variants: {},
+  corePlugins: {
+    preflight: true,
+  },
+  important: true,
+  content: ["./pages/**/*.{vue,js}", "./components/**/*.{vue,js}", "./layouts/**/*.{vue,js}"],
+  theme: {
+    extend: {
+      fontFamily: {
+
+      }
+    },
+  },
   plugins: [],
-  purge: false
 }

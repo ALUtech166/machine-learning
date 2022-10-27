@@ -33,7 +33,13 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+
+// Simple usage
+    '@nuxtjs/vuetify',
+
+    // With options
+    ['@nuxtjs/vuetify', { /* module options */ }]
   ],
   /*
    ** Nuxt.js modules
@@ -57,5 +63,12 @@ export default {
         }
       }
     }
+  },
+
+  server: {
+    port: 9000 // default: 9000
   }
+
+
 }
+
