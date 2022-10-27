@@ -1,6 +1,6 @@
 <template>
   <div class="pt-24">
-    <div class="container px-8 py-16 items-center">
+    <div class="container px-8 py-16 items-center mb-12">
       <!--Left Col-->
       <div class="w-full justify-center text-center md:text-left">
         <p class="uppercase tracking-loose w-full">What business are you?</p>

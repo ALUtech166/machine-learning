@@ -1,5 +1,5 @@
 <template>
-  <nav :class="headerClassList" class="fixed w-full z-30 top-0">
+  <nav :class="headerClassList" class="fixed w-full z-30 top-0 bg-white">
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
       <div class="pl-4 flex items-center">
         <logo :isStickable="true" :isSticky="isSticky" />
@@ -14,7 +14,7 @@
       </div>
 
       <div :class="navContentClassList"
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-white p-4 lg:p-0 z-20">
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20">
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
             <NuxtLink class="inline-block py-2 px-4 text-black font-bold no-underline text-serif" to="/">Home</NuxtLink>
