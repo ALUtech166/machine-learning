@@ -35,6 +35,7 @@
 				to="#">
         Contact Us
       </NuxtLink>
+                          
       </div>
     </div>
     <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
@@ -43,6 +44,7 @@
 
 <script>
   import Logo from '@/components/Logo'
+  import CloseIcon from "@/assets/icons/close.svg";
 
   export default {
     name: 'TheHeader',

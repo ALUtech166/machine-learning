@@ -23,12 +23,7 @@
       class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
     >
       <div class="flex items-center justify-end">
-        <button
-          class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-          @click.prevent="onClick"
-        >
-          {{ action }}
-        </button>
+        <button class="btn btn-primary text-md">Learn More</button>
       </div>
     </div>
   </div>
