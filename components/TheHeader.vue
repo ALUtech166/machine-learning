@@ -1,6 +1,6 @@
 <template>
-  <nav :class="headerClassList" class="fixed w-full z-30 top-0 bg-white">
-    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+  <nav :class="headerClassList" class="fixed w-full z-30 top-0 bg-white py-2">
+    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0">
       <div class="pl-4 flex items-center">
         <logo :isStickable="true" :isSticky="isSticky" />
       </div>
@@ -14,7 +14,7 @@
       </div>
 
       <div :class="navContentClassList"
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20">
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 lg:bg-transparent text-black p-4 lg:p-0 z-20">
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
             <NuxtLink class="inline-block py-2 px-4 text-black font-bold no-underline text-serif" to="/">Home</NuxtLink>
@@ -29,9 +29,9 @@
             <NuxtLink class="inline-block py-2 px-4 text-black font-bold no-underline text-serif" to="/">Clients</NuxtLink>
           </li>
         </ul>
-       
+
         <NuxtLink
-				class="text-white py-3 px-8 rounded-full  font-medium bg-blue-800 hover:bg-green-600 hover:text-white transition-all"
+				class="text-white py-3 px-8 rounded-full  font-medium bg-blue-800 hover:bg-gray-400 hover:text-white transition-all"
 				to="#">
         Contact Us
       </NuxtLink>
@@ -55,24 +55,24 @@
         isOpen: false
       }
     },
-    computed: {
-      isSticky() {
-        return this.scrollY > 10
-      },
-      headerClassList() {
-        return this.isSticky ? 'bg-white shadow' : ''
-      },
-      navActionClassList() {
-        return this.isSticky ? 'gradient text-white' : 'bg-white text-gray-800'
-      },
-      navContentClassList() {
-        let classList = this.isSticky ? 'bg-white' : 'bg-gray-100'
-        if (!this.isOpen) {
-          classList += ` hidden`
-        }
-        return classList
-      }
+     computed: {
+    isSticky() {
+      return this.scrollY > 10
     },
+    headerClassList() {
+      return this.isSticky ? 'bg-white shadow' : ''
+    },
+    navActionClassList() {
+      return this.isSticky ? 'gradient text-white' : 'bg-white text-gray-800'
+    },
+    navContentClassList() {
+      let classList = this.isSticky ? 'bg-white' : 'bg-gray-100'
+      if (!this.isOpen) {
+        classList += ` hidden`
+      }
+      return classList
+    }
+  },
     methods: {
       onClick() {
         this.isOpen = false

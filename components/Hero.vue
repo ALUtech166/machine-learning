@@ -1,6 +1,7 @@
 <template>
   <div>
-    <hero-content />
+    <div class="gradient">
+     <hero-content />
     <div class="relative -mt-12 lg:-mt-24">
       <svg
         viewBox="0 0 1428 174"
@@ -40,6 +41,8 @@
         </g>
       </svg>
     </div>
+    </div>
+    
   </div>
 </template>
 
@@ -53,3 +56,17 @@ export default {
   }
 }
 </script>
+
+<style>
+
+.gradient {
+  /* background: linear-gradient(90deg, #6200ee 0%, #03dac5 100%);  */
+  background-color: linear-gradient(90deg, #001E6C 0%, #FFFFFF 100%);
+  background-image: linear-gradient(to bottom, rgba(3, 9, 41, 0.52), rgba(12, 1, 10, 0.73)),url('../assets/img/bg2.jpg');
+  opacity: 0.9;
+  background-size: auto;
+
+}
+
+</style>
+

@@ -1,41 +1,109 @@
 <template>
-  <section class="bg-white border-b py-8">
+
+  <section class="border-b">
+    <div class="container justify-center rounded-2xl">
+
+      <div class="">
+        <h1 class="text-center text-sm text-orange-400 font-bold leading-tight">
+          Our Features
+        </h1>
+        <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-blue-600">
+          Why Choose Us
+        </h1>
+        <p class="text-center text-md text-black mb-4">
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+          Sed quis accumsan nisi Ut ut felis congue nisl <br>
+          hendrerit commodo.
+
+        </p>
+
+
+        <div class="flex flex-col gap-4 lg:flex-row items-center justify-center">
+
+          <div class="basis-1/3">
+          <div class="card w-96 sm:w-full bg-base-100 shadow-xl">
+            <figure><img src="../assets/img/bg3.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title text-black font*-bold">Shoes!</h2>
+              <p class="text-black">If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="basis-1/3">
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="../assets/img/bg2.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title text-black font-bold">Shoes!</h2>
+              <p class="text-black">If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+          </div>
+
+          <div class="basis-1/3">
+
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="../assets/img/hero1.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title text-black">Shoes!</h2>
+              <p class="text-black">If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
     <div class="container max-w-5xl mx-auto m-8">
-      <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
-      >
+      <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
         Title
       </h1>
       <div class="w-full mb-4">
-        <div
-          class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-        ></div>
+        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-      <feature-right
-        headline="Lorem ipsum dolor sit amet"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."
-      >
+      <feature-right headline="Lorem ipsum dolor sit amet"
+        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.">
         <img src="~assets/img/travel-booking.svg?inline" alt slot="svg" />
       </feature-right>
-      <feature-left
-        headline="Lorem ipsum dolor sit amet"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."
-      >
+      <feature-left headline="Lorem ipsum dolor sit amet"
+        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.">
         <img src="~assets/img/connected-world.svg?inline" alt slot="svg" />
       </feature-left>
     </div>
+
+
   </section>
 </template>
 
 <script>
-import FeatureRight from '@/components/FeatureRight'
-import FeatureLeft from '@/components/FeatureLeft'
+  import FeatureRight from '@/components/FeatureRight'
+  import FeatureLeft from '@/components/FeatureLeft'
 
-export default {
-  name: 'Features',
-  components: {
-    'feature-right': FeatureRight,
-    'feature-left': FeatureLeft
+  export default {
+    name: 'Features',
+    components: {
+      'feature-right': FeatureRight,
+      'feature-left': FeatureLeft
+  },
+  data: () => ({
+    show: false,
+    show1: false,
+    show2: false,
+  }),
   }
-}
+
 </script>

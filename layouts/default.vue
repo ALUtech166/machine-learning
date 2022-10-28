@@ -1,5 +1,5 @@
 <template>
-  <div class="leading-normal text-white gradient pt-24">
+  <div class="leading-normal text-white pt-24">
     <the-header />
     <nuxt />
     <the-footer />
@@ -31,15 +31,5 @@ html {
   box-sizing: border-box;
 }
 
-.gradient {
-  /* background: linear-gradient(90deg, #6200ee 0%, #03dac5 100%);  */
-  background-color: linear-gradient(90deg, #001E6C 0%, #FFFFFF 100%);
-  background-image: linear-gradient(to bottom, rgba(3, 9, 41, 0.52), rgba(12, 1, 10, 0.73)),url('../assets/img/bg3.jpg');
-  opacity: 0.9;
-  background-size: auto;
 
-
-
-
-}
 </style>
