@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-white">
+  <footer class="bg-gray-500">
     <div class="container mx-auto px-8">
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6">
@@ -12,21 +12,21 @@
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-blue-600"
                 >FAQ</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-blue-600"
                 >Help</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-blue-600"
                 >Support</a
               >
             </li>
@@ -38,14 +38,14 @@
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-blue-600"
                 >Terms</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-blue-600"
                 >Privacy</a
               >
             </li>
@@ -57,21 +57,21 @@
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-blue-600"
                 >Facebook</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-blue-600"
                 >Linkedin</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-blue-600"
                 >Twitter</a
               >
             </li>
@@ -83,21 +83,21 @@
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-blue-600"
                 >Official Blog</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-blue-600"
                 >About Us</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline text-gray-800 hover:text-blue-600"
                 >Contact</a
               >
             </li>

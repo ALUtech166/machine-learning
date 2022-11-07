@@ -23,7 +23,10 @@
       class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
     >
       <div class="flex items-center justify-end">
-        <button class="btn btn-primary text-md">Learn More</button>
+        <button
+          class="mx-auto lg:mx-0 bg-blue-800 text-white font-bold hover:bg-gray-400 rounded-full my-4 py-4 px-8  shadow-lg">
+          Learn More
+        </button>
       </div>
     </div>
   </div>

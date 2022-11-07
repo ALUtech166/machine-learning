@@ -1,11 +1,11 @@
 <template>
-  <section class="container mx-auto text-center py-6 mb-12 bg-blue-800">
+  <section class="container mx-auto text-center py-6 bg-blue-800">
     <h1
       class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"
     >
       Contact Us
     </h1>
-    <div class="w-full mb-4">
+    <div class="w-full">
       <div
         class="h-1 mx-auto bg-blue-800 w-1/6 opacity-25 my-0 py-0 rounded-t"
       ></div>

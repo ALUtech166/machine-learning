@@ -1,7 +1,7 @@
 <template>
 
-  <section class="border-b  justify-center">
-    <div class="justify-center rounded-2xl">
+  <section class="border-b">
+    <div class="rounded-2xl">
 
       <div class="">
         <h1 class="text-center text-sm text-orange-400 font-bold leading-tight">
@@ -22,44 +22,53 @@
         </p>
 
 
-        <div class="flex flex-col gap-2 lg:flex-row container items-center justify-center mb-4">
+        <div class="flex flex-col gap-2.5 lg:flex-row container items-center justify-center mb-4">
 
-          <div class="basis-1/3">
+          <div class="">
           <div class="card w-96 sm:w-full bg-base-100 shadow-xl">
             <figure><img src="../assets/img/bg7.jpg" alt="Shoes" /></figure>
             <div class="card-body">
-              <h2 class="card-title text-black font*-bold">Shoes!</h2>
+              <h2 class="card-title font*-bold text-blue-600">Procure spare parts</h2>
               <p class="text-black">If a dog chews shoes whose shoes does he choose?</p>
               <div class="card-actions justify-end">
-                <button class="btn btn-primary">Learn More</button>
+                <button
+          class="mx-auto lg:mx-0 bg-blue-800 text-white font-bold hover:bg-gray-400 rounded-full py-4 px-8  shadow-lg">
+          Learn More
+        </button>
               </div>
             </div>
           </div>
           </div>
 
-          <div class="basis-1/3">
+          <div class="">
           <div class="card w-96 bg-base-100 shadow-xl">
             <figure><img src="../assets/img/bg3.jpg" alt="Shoes" /></figure>
             <div class="card-body">
-              <h2 class="card-title text-black font-bold">Shoes!</h2>
+              <h2 class="card-title font-bold text-blue-600">Conduct system repairs</h2>
               <p class="text-black">If a dog chews shoes whose shoes does he choose?</p>
               <div class="card-actions justify-end">
-                <button class="btn btn-primary">Learn More</button>
+                <button
+          class="mx-auto lg:mx-0 bg-blue-800 text-white font-bold hover:bg-gray-400 rounded-full py-4 px-8  shadow-lg">
+          Learn More
+        </button>
               </div>
             </div>
           </div>
 
           </div>
 
-          <div class="basis-1/3">
+          <div class="">
 
           <div class="card w-96 bg-base-100 shadow-xl">
             <figure><img src="../assets/img/hero1.jpg" alt="Shoes" /></figure>
             <div class="card-body">
-              <h2 class="card-title text-black">Shoes!</h2>
+              <h2 class="card-title text-blue-600">Optimize production</h2>
               <p class="text-black">If a dog chews shoes whose shoes does he choose?</p>
               <div class="card-actions justify-end">
-                <button class="btn btn-primary">Learn More</button>
+                <button
+          class="mx-auto lg:mx-0 bg-blue-800 text-white font-bold hover:bg-gray-400 rounded-full py-4 px-8  shadow-lg">
+          Learn More
+        </button>
               </div>
             </div>
           </div>
@@ -100,6 +109,15 @@ We are able to do this by leveraging the power of Big Data, Machine Learning and
 Domain Knowledge.">
         <img src="~assets/img/connected-world.svg?inline" alt slot="svg" />
       </feature-left>
+       <feature-right headline="The Ask"
+        content="As mentioned prior, we are keen on employing a local approach to our intervention. We
+believe that consumer insight should play a significant role in influencing a product’s
+dynamic. We are currently building the Minimum Viable Product iteration of the dotSaveAI. We would love to work with you, Minimex, to prove the concept of our product. By
+engaging closely with you and your technical team, we will be able to more effectively
+revolutionize your industrial productivity quicker.
+">
+        <img class="rounded-2xl shadow-lg" src="~assets/img/bg7.jpg" alt slot="svg" />
+      </feature-right>
     </div>
 
 
