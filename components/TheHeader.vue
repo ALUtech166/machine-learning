@@ -1,5 +1,5 @@
 <template>
-  <nav :class="headerClassList" class="fixed w-full z-30 top-0 bg-white py-2">
+  <nav :class="headerClassList" class="fixed w-full z-30 top-0 bg-white header-links py-2">
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0">
       <div class="pl-4 flex items-center">
         <logo :isStickable="true" :isSticky="isSticky" />
@@ -16,16 +16,16 @@
       <div :class="navContentClassList"
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 lg:bg-transparent text-black p-4 lg:p-0 z-20">
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
-          <li class="mr-3">
+          <li class="mr-3" :class="$route.path === '/'?'active':''">
             <NuxtLink class="inline-block py-2 px-4 text-black font-bold no-underline text-serif" to="/">Home</NuxtLink>
           </li>
-          <li class="mr-3">
+          <li class="mr-3" :class="$route.path === '/about'?'active':''">
             <NuxtLink class="inline-block py-2 px-4 text-black font-bold no-underline text-serif" to="/">About Us</NuxtLink>
           </li>
-          <li class="mr-3">
+          <li class="mr-3" :class="$route.path === '/service'?'active':''">
             <NuxtLink class="inline-block py-2 px-4 text-black font-bold no-underline text-serif" to="/">Services</NuxtLink>
           </li>
-          <li class="mr-3">
+          <li class="mr-3" :class="$route.path === '/client'?'active':''">
             <NuxtLink class="inline-block py-2 px-4 text-black font-bold no-underline text-serif" to="/">Clients</NuxtLink>
           </li>
         </ul>
@@ -35,7 +35,7 @@
 				to="#">
         Contact Us
       </NuxtLink>
-                          
+
       </div>
     </div>
     <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
@@ -98,3 +98,14 @@
   }
 
 </script>
+
+
+<style>
+.header-links li.active span::before {
+  background-color: #fcae04;
+}
+
+.header-links li:not(.active):hover span::before {
+  background-color: #ccc;
+}
+</style>

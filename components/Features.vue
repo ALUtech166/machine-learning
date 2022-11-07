@@ -22,7 +22,7 @@
         </p>
 
 
-        <div class="flex flex-col gap-4 lg:flex-row container items-center justify-center mb-4">
+        <div class="flex flex-col gap-2 lg:flex-row container items-center justify-center mb-4">
 
           <div class="basis-1/3">
           <div class="card w-96 sm:w-full bg-base-100 shadow-xl">
